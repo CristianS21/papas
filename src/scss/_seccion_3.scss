@@ -13,8 +13,7 @@
         justify-content: center;
 
         img{
-            width: 90%;
-        
+            width: 90%;        
         }
     }
 
@@ -50,10 +49,11 @@
         font-size: 20px;
         letter-spacing: 3px;
         &:hover{
+            transition: 1s;
             background-color: #212F3D;
             color: #f4ecf8;
             font-weight: bold;
-            border: none;
+
             }
         }
     }

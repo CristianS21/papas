@@ -41,7 +41,7 @@
     a {
         border: solid 2px ;
         padding: 10px 25px ;
-        background-color:#f4ecf8;
+        background-color:$ColorComplemento;
         color: #212F3D ;
         border-radius: 30px;
         text-decoration: none;
@@ -51,7 +51,7 @@
         &:hover{
             transition: 1s;
             background-color: #212F3D;
-            color: #f4ecf8;
+            color: $ColorComplemento;
             font-weight: bold;
 
             }

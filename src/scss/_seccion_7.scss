@@ -1,0 +1,31 @@
+.contenedor-7{
+    width: 100%;
+    height: 80vh;
+    background-color: $ColorPrincipal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .c7_mapa{
+        width: 100%;
+        height: 75vh;
+
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .c7_formulario{
+        position: absolute;
+        background-color: $ColorComplemento;
+
+        h2{
+            font-size: 41px;
+            color: $ColorPrincipal;
+        }
+    }
+}
+

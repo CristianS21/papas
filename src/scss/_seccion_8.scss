@@ -1,0 +1,27 @@
+.contenedor-8{
+    width: 100%;
+    height: 80vh;
+    background-color:$ColorComplemento;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .c8-text{
+        width: 75%;
+        height: 50%;
+        background-color: tomato;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $ColorPrincipal;
+    
+        h2{
+        font-size: 48px;
+        }
+        p{
+            text-align: center;
+            padding: 0 175px;
+        }
+    }   
+}

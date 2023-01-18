@@ -9,8 +9,7 @@
 
     .c8-text{
         width: 75%;
-        height: 50%;
-        background-color: tomato;
+        height: 65%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -19,9 +18,42 @@
         h2{
         font-size: 48px;
         }
+
         p{
+            width: 60%;
             text-align: center;
-            padding: 0 175px;
+            margin: 45px auto;
+        }
+
+        .contenedor_form_email{
+            display: flex;
+            width: 54%;
+
+            .input_email{
+                width: 70%;
+                height: 40px;
+                border-radius: 20px 0 0 20px;
+                border: none;
+                padding-left: 15px;
+                outline: none;
+                color: #212F3D;
+            }
+
+            .boton_email{
+                width: 30%;
+                border-radius: 0px 20px 20px 0;
+                background-color: $ColorPrincipal;
+                color: $ColorComplemento;
+                border: none;
+                font-size: 18px;
+                &:hover{
+                    border: solid 1px $ColorPrincipal;
+                    transition: 1s;
+                    background-color: #212F3D;
+                    color: $ColorPrincipal;
+                    font-weight: bold;
+                }
+            }
         }
     }   
 }

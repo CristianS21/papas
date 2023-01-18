@@ -1,5 +1,4 @@
 .contenedor-1{
-
     background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: 100%;
@@ -21,18 +20,19 @@
             align-items:flex-start;
             padding-left: 20px;
         
-        .img_header{
-           width: 40%;
-           height: 55%;
-           margin-left: 20px;
-           background-color: $ColorPrincipal;
-           border-radius: 50%;
+            .img_header{
+            width: 230px;
+            height: 155px;
+            margin-left: 22px;  
+            }
+
+            h1{
+                font-size: 25px;
+                color: $ColorSecundario;
+            }
         }
-        
-        h1{
-            font-size: 20px;
-        }
-    }
+
+    
         
         .navegacion{
             width: 75%;

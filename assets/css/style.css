@@ -130,7 +130,7 @@
   } 
  
   .contenedor-1 .cabecera .navegacion {
-    background-color: rgba(7, 7, 7,0.5);
+    background-color: rgba(7, 7, 7,0.88);
     position: fixed;
     width: 50vh;
     height: 100vh;
@@ -161,7 +161,7 @@
         background-color: rgba(0,0,0,0.8);
         padding: 20px 50px;
         height: auto;
-        justify-content: start;
+
       }
 
      }
@@ -180,7 +180,6 @@
       }
       .contenedor-1 .banner .seccion1_textos{
         width: 85%;
- 
         background-color: rgba(215, 189, 226,0.5);
       }
 
@@ -275,6 +274,12 @@
   color: #AF7AC5;
 }
 
+@media (max-width: 962px){
+
+}
+
+/*CONTENEDOR 3*/
+
 .contenedor-3 {
   background-color: #AF7AC5;
   width: 100%;
@@ -327,6 +332,27 @@
   color: #f4ecf8;
   font-weight: bold;
 }
+
+@media (max-width: 962px){
+  .contenedor-3{
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-3 .c3-txt{
+    width:93%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contenedor-3 .c3-txt a{
+    margin-bottom: 37px;
+  }
+}
+
+/*CONTENEDOR 4*/
 
 .contenedor-4 {
   background-color: #f4ecf8;
